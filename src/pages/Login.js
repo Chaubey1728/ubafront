@@ -21,7 +21,7 @@ const navigate = useNavigate();
 const [email, setEmail] = useState('');
 const [password, setPassword] = useState('');
 const handleLogin= async ()=>{
-    let result = await fetch("https://uba-api.onrender.com/register",{
+    let result = await fetch("https://uba-api.onrender.com/login",{
         method:'post',
         body:JSON.stringify({email, password}),
         headers:{
