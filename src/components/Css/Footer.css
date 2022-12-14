@@ -1,0 +1,63 @@
+.insta > img{
+    width: 2vmax;
+    cursor: pointer;
+}
+.insta:hover img{
+    transform: translateX(3px);
+}
+.it{
+    font-size: 3vh;
+}
+
+.fb > img{
+    width: 2vmax;
+    cursor: pointer;
+}
+.fb:hover img{
+    transform: translateX(3px);
+}
+.ft{
+    font-size: 3vh;
+}
+
+.twiter > img{
+    width: 2vmax;
+    cursor: pointer;
+}
+.twiter:hover img{
+    transform: translateX(3px);
+}
+.tt{
+    font-size: 3vh;
+}
+
+.i{
+    background-color: #f7f0f1;
+}
+.f{
+    background-color: #f0ebec;
+
+}
+.t{
+    background-color: #f8f1f2;
+
+}
+
+.main-footer {
+    background-color:#e62e4198;
+    color: solid white;
+    position: relative;
+    bottom: 0;
+    width: auto;
+    padding-top: 3em;
+    max-height: 100vh;
+    
+}
+
+.col{
+    color: solid black;
+}
+
+.col-sm{
+    margin-left: .8cm;
+}

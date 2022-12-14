@@ -1,0 +1,59 @@
+
+
+.Apphome{
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+.content-wrap{
+    flex: 1;
+}
+
+body{
+    margin: 0;
+}
+
+@media(max-aspect-ratio: 7/10) {
+
+    .home img{
+        margin-left: 6mm !important;
+        margin-top: 2.5mm !important;
+        max-height: 11vh !important;
+    }
+
+    .it{
+        font-size: 2vh !important;
+    }
+    .ft{
+        font-size: 2vh !important;
+    }
+    .tt{
+        font-size: 2vh !important;
+    }
+    .col-sm{
+        margin-left: .3cm !important;
+        font-size: 4mm !important;
+    }
+
+    .cardh h3{
+        
+        margin-left: 0cm !important;
+    }
+
+}
+
+.new-user{
+    margin-left: 2.4in;
+    margin-top: 2mm;
+}
+.new-user-button{
+    background-color: darkslategrey;
+}
+.logo{
+    width: 100px ;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 3px;
+}
