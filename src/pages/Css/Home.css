@@ -10,3 +10,107 @@
 .content{
     margin-left: 1em;
 }
+
+
+
+.content-wrap{
+    flex: 1;
+}
+
+.youtube-video{
+    margin-top: 2cm;
+    float: right;
+}
+.vill-links{
+    float: left;
+}
+
+.village1{
+    float: left;
+    box-sizing: border-box;
+}
+.VillgBody {
+    background-color: rgb(229, 186, 75);
+}
+.VillgTitle{
+    background-color: rgb(246, 236, 236);
+    padding-left: 5mm;
+}
+.Bhati{
+    font-size: 5mm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-top: 2px;
+    padding-left: 5mm;
+    padding-right: 1.86cm;
+    background-color: rgb(246, 236, 236);
+}
+.Sultanpur{
+    font-size: 5mm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-top: 2.5px;
+    padding-left: 5mm;
+    padding-right: 2.2cm;
+    background-color: rgb(246, 236, 236);
+}
+.Rajpur{
+    font-size: 5mm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-top: 2.5px;
+    padding-left: 5mm;
+    padding-right: 1.55cm;
+    background-color: rgb(246, 236, 236);
+}
+.Chandan{
+    font-size: 5mm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding-left: 5mm;
+    padding-right: 1.32cm;
+    background-color: rgb(246, 236, 236);
+}
+.Satbari{
+    text-decoration: black;
+    font-size: 5mm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-top: 2.7px;
+    padding-left: 5mm;
+    padding-right: 2.91cm;
+    background-color: rgb(246, 236, 236);
+}
+.Work-Uba{
+    margin-top: 1cm;
+    margin-left: 1cm;
+    box-sizing: border-box; 
+    width: fit-content;
+}.Work-Uba>p>center>h3{
+    text-decoration: underline;
+}
+.His-uba{
+    margin-top: 1cm;
+    margin-left: 1cm;
+    box-sizing: border-box;
+    width: fit-content;
+}.His-uba>p>center>h3{
+    text-decoration: underline;
+}
+.uba-intro{
+    margin-top: 1cm;
+    margin-left: 1cm;
+    box-sizing: border-box;
+    width: fit-content;
+}.uba-intro>p>center>h3{
+    text-decoration: underline;
+}.uba-intro>center>h3{
+    text-decoration: underline;}
+.conc-uba{
+    margin-top: 1cm;
+    margin-left: 1cm;
+    box-sizing: border-box;
+    width: fit-content;
+}.conc-uba>p>center>h3{
+    text-decoration: underline;
+}

@@ -5,13 +5,24 @@
     flex-direction: column;
     max-height: 100vh;
 }
+.navbar
+   {/*background-image: url('images/Home/header.jpg');*/} 
 
-.content-wrap{
-    flex: 1;
+
+.logo{
+    width: 100px ;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 3px;
 }
 
 body{
     margin: 0;
+}
+
+.gform{
+    margin-top: 1cm;
 }
 
 @media(max-aspect-ratio: 7/10) {
@@ -20,6 +31,10 @@ body{
         margin-left: 6mm !important;
         margin-top: 2.5mm !important;
         max-height: 11vh !important;
+    }
+
+    .nav-head h1{
+        font-size: 6vmin;
     }
 
     .it{
@@ -40,6 +55,13 @@ body{
         
         margin-left: 0cm !important;
     }
+    .logo{
+        width: 50px ;
+        height: 50px;
+        border-radius: 50%;
+        float: left;
+        
+    }
 
 }
 
@@ -47,13 +69,7 @@ body{
     margin-left: 2.4in;
     margin-top: 2mm;
 }
+
 .new-user-button{
     background-color: darkslategrey;
-}
-.logo{
-    width: 100px ;
-    height: 60px;
-    border-radius: 50%;
-    float: left;
-    margin-top: 3px;
 }

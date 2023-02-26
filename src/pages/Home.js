@@ -1,47 +1,136 @@
 import React from "react";
+import { Container, Card, CardBody, CardTitle, Row, CardLink, Col } from "reactstrap";
 import Base from "../components/Base"
 import Header from "../images/Home/header.jpg"
+import { Link } from "react-router-dom";
 import "./Css/Home.css";
 
 export default function Home() {
     return (
       <Base>
       <div className="home">
-        <img src = {Header} alt='header' mx />
-        <div className="content">
-        <p><h5>Unnat Bharat Abhiyan</h5>Unnat Bharat Abhiyan is a flagship programme by the Ministry of Human Resource Development with an intention to enrich Rural India. This programme brings the premier higher educational institutes and villages together to cooperate and build an inclusive India. Since the soul of our country resides in the villages, it is very important to know about villages and its residents. It is very much essential to understand the problems of these villages and effective efforts should be made to provide them a life as equal as people enjoy in cities. According to Mahatma Gandhi-
-        </p>
-        <p>
-        Cooperating with the people of villages, institutions can work on the solutions to the problems according to their capacity. They can provide them with technical support to improve their livelihoods in rural areas. The introduced technical innovation can boost the capabilities of both the public and the private organizations of society
-        </p>
-        <p>
-        <h5>Need of Unnat Bharat Abhiyan</h5>
-India’s 70% population lives in villages, and of the population living in villages, 51% are doing agrarian work but only contributing 17% to the country’s GDP. It is because the basic amenities are not available in rural India. People are migrating from rural to urban areas for better employment, education, health, and other basic amenities. This is increasing the burden on the urban areas leading to pollution, hygiene problems and poverty. Therefore, we must develop rural India to stop this migration and help the people live a better life in the villages by providing them with all the basic amenities. 
-
-        </p>
-        <p>
-        <h5>Stakeholders in UBA</h5>
-    
-●	Ministry of Human Resource Development (MHRD)
-The main work of MHRD is to provide funds to NCI, RCIs, and PIs for their functioning. It also provides funds for training sessions and SEGs. 
-<br />
-●	National Steering Committee (NSC)
-It is a policy-making body which also connects all the stakeholders of UBA to state governments. It keeps eye on the work and coordination between different levels of UBA. 
-<br />
-●	National Co-ordination Institute (NCI)
-The Indian Institute of Technology Delhi is the NCI for the scheme. It is responsible for the training of volunteers and selection of institutes, constituting SEGs and maintaining the development and reports through a web portal. The meeting of all the objectives under UBA is the responsibility of NCI. 
-<br />
-●	Subject Expert Groups (SEGs)
-This is the group of institutions that provide expert solutions to the problems found in the villages based on the data collected by participating institutes. They act like a think tank for UBA. They are responsible for the orientation program and training of the student volunteers. They will visit the villages when a UBA program has to be implemented and will also help to provide grants wherever needed under a program. 
-<br />
-●	Regional Coordinating Institutions (RCIs)
-These are the institutes which will increase the participation of participating institutes in their area and carry out their own village clusters program. These will keep an eye on the participating institutes in their area and provide them wherever needed. 
-<br />
-●	Participating Institutions (PIs)
-The participating institutions are the ones who work on the root level. They find the need of the villages and conduct events and drills in the rural areas. They connect with state government/ district authorities/ gram panchayat to get emotional as well as financial support. They conduct surveys for data analytics and this data is further used to find solutions. 
-
-        </p>
+       {/* <img src = {Header} alt='header' mx /> */}
+        <div className="youtube-video">
+        <iframe width="" height="255" src="https://www.youtube-nocookie.com/embed/IktFjGVw3p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>< br />
         </div>
+
+        <div className="vill-links">
+
+        </div>
+{/*
+      <Container className="village1">
+        <Row className="mx-0 px-0">
+        <Col className="mx-0 px-1" sm={{ size: 3, offset: 3}}>
+          <Card >
+            <CardBody className="VillgBody ">
+              <CardTitle className="VillgTitle"><h3>VILLAGES</h3></CardTitle>
+              <hr className='' ></hr>
+              <CardLink className="Bhati" tag={Link} to="/Bhati" >Bhati Mines</CardLink>
+              <br />
+              <CardLink className="Chandan" tag={Link} to="/chandan" >Chandan Hola</CardLink>
+              <br />
+              <CardLink className="Rajpur" tag={Link} to="/rajpur" >Rajpur Khurd</CardLink>
+              <br />
+              <CardLink className="Satbari" tag={Link} to="/satbari" >Satbari</CardLink>
+              <br />
+              <CardLink className="Sultanpur" tag={Link} to="/sultanpur" >Sultan Pur</CardLink>
+
+            </CardBody>
+          </Card>
+          </Col>
+        </Row>
+        </Container>
+*/}
+      <div className="Work-Uba">
+        <p>
+      <center><h3>भूमिका</h3></center>
+  इस विशाल देश की आत्मा गांवों में बस्ती है। परंतु गांवों की पवित्रता को शहर की चमक ने धूमिल कर दिया है। गाँव को उसकी पवित्रता प्राप्त होती है वहां के जल-जीवन एवं जीव-जंतुओं से। और इन्ही के हालात सुधारने के लिए उदय हुआ उन्नत भारत अभियान का।  उन्नत भारत अभियान का शुभारंभ मानव संसाधन विकास मंत्रालय द्वारा ११ नवंबर, २०१४ को किया गया। इसका उद्देश्य उच्च शिक्षा संस्थानों एवं छात्रों को ग्राम्य वास्तविकताओं से अवगत कराना, और स्थानीय आवशक्ताओं के अनुरूप समाधान को विकसित करना है। जैसा की गाँधीजी ने कहा है कि, "प्रत्येक देशभक्त के समक्ष यह चुनौती होगी की भारत के गांवों का ऐसा पुनर्निर्माण किस प्रकार किया जाए की कोई भी व्यक्ति उनमें भी उतनी ही आसानी से रह सके, जैसे शहरों में रहा जाता है"। "तकनीकी संस्थाओं का ज्ञान, सवैच्छिक संगठनों का अनुभव, सरकार के संसाधन सभी को मिलाकर गांवों के विकास के लिए" उन्नत भारत अभियान की दृष्टि एवं उद्देश्य को गांधीजी के कथन को केंद्र मानकर दर्शाता है। देश की कुल जनसंख्या का तकरीबन ७० प्रतिशत गांवों में निवास करती है। गांवों में नौकरी का बड़ा अभाव है, इसी कारणवश लोगो को गांवों से शहर की ओर पलायन करना पड़ रहा है। यह पलायन शहरों पर बोझ बढ़ा रहा है। गांवों को इस काबिल बनाना की लोगो को प्रवास न करना पड़े और वे गांव में रह कर ही अपना कार्य और जीवन-यापन कर सके यहीं उन्नत भारत अभियान के मानक है। सरकार की विभिन्न योजनाएं जो गाँव वालो के लिए उत्तम साबित हो सकती है, उनको इन योजनाओं के बारे में अवगत कराना और उनको इनसे लाभ देना ही उन्नत भारत अभियान का लक्ष्य है। </p>
+  <p>देशबंधु महाविद्यालय ने उन्नत भारत अभियान में अपनी भागीदारी दिखाते हुए इस कार्यक्रम   में अधिकतम प्रयास करते हुए योगदान देने का प्रयत्न किया है। देशबंधु महाविद्यालय की उन्नत भारत अभियान इकाई ने पांच गावों को गोद लिया, जहां पहुंचकर अनेक आयोजन किए गए है। इन आयोजनों में ग्रामीण लोगो की भागीदारी सराहनीय रही। चंदनहोला, राजपुर खुर्द, भाटी माइंस, सुल्तानपुर और सतबरी वो विभिन्न गाँव है जहाँ यूबीए ने अपना कार्य किया। लोगो से वार्तालाप करते हुए विभिन्न प्रपत्र भरे गए जिन्हे जानकारी जुटाने हेतु  उपयोग में लिया जाएगा। गांवों में सामाजिक कुरीतियों से लड़ने के लिए जागरूकता अभियान से लेकर साफ-सफाई तक, मुफ्त इलाज से लेकर गर्म कपड़े के वितरण करने तक यूबीए ने अनेक कार्यों को सम्पन्न किया है। 
+   </p>
+      </div>
+      <div className="youtube-video">
+      <iframe width="" height="275" src="https://www.youtube-nocookie.com/embed/LfmoIE9ws-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+    <div className="His-uba">
+      <p>
+      <center><h3>History of Unnat Bharat Abhiyan</h3></center> 
+The conceptualization of Unnat Bharat Abhiyan started with the initiative of a group of dedicated faculty members of the Indian Institute of Technology (IIT) Delhi working in the area of rural development and appropriate technologies. The concept was nurtured through wide consultation with the representatives of several technical institutions, Rural Technology Action Group (RuTAG) coordinators, voluntary organizations and government agencies, actively involved in rural development work, during a National workshop held at IIT Delhi in September 2014. The Ministry of Human Resource Development (MHRD) formally launched the program on 11th November 2014. 
+Unnat Bharat Abhiyan was introduced at Deshbandhu College in June 2021. The initiative was taken by Prof. Varsha Baweja who wants to serve society productively. The initiative starts with the research of a community service program. The research ended at Unnat Bharat Abhiyan. Our Principal, Prof. Rajiv Aggarwal, wrote a letter to the Unnat Bharat Abhiyan committee. And Deshbandhu College was given the status of Participating Institute. The Abhiyan was soon joined by Prof Ruby Mishra and Dr Ajay Pratap Singh Gehlot. Later Dr Seema Gupta, Dr Ashwini Kumar Singh and Dr Robin Kumar joined it. The Dedication, Patience and Perseverance of all the teachers made it a popular program in the college and it lead to the making of a team which leads to the initiation of Unnat Bharat Abhiyan for the students. The first student coordinator appointed was Mr Suraj Sharma and Ms Manaswi Rajput. In a very short span of time but with immense determination, passion and commitment towards the program made it a successful initiative. 
+
+      </p>
+    </div>
+
+    <div className="uba-intro">
+      <p>
+      <center><h3> उन्नत भारत अभियान: संस्थान, कार्य, कर्तव्य  </h3></center>
+उन्नत भारत अभियान की स्थापना ११ नवंबर, २०१५ को हुई। भारत के ग्रामीण क्षेत्रों को समृद्ध करने हेतु गढ़ा गया मानव संसाधन विकास मंत्रालय का यह एक प्रमुख कार्यक्रम है। </p>
+
+<p>उन्नत भारत अभियान २.० के अंतर्गत सार्वजनिक एवं निजी क्षेत्र से ७५० प्रतिष्ठित उच्चतर शिक्षा संस्थानों को चयनित किया गया है। भारतीय प्रौद्योगिकी संस्थान, दिल्ली को इस कार्यक्रम के 'राष्ट्रीय समन्वयक' के रूप में चुना गया है। इस वृहद अभियान को देश भर में सुचारू रूप से लागू करने के लिए अनेक अन्य शीर्ष संस्थानों जैसे की आईआईटी, आईआईएससी, आईआईएम, एनआईटी और केंद्रीय विश्वविद्यालय, जिनके पास पहले से ही ग्रामीण विकास कार्यों के लिए आधारभूत ज्ञान एवं संरचनात्मक ढांचा और पर्याप्त एवं उचित अनुभव है, को 'क्षेत्रीय समन्वयक संस्थानों' के रूप में चिंहित किया गया है। </p>
+
+<center><h3>उन्नत भारत अभियान के विभिन्न हितधारकों की भूमिका:</h3></center>
+
+<p><h5>क. प्रायोजक मंत्रालय - मानव संसाधन विकास मंत्रालय (एमएचआरडी)</h5></p>
+<p>कार्यक्रम की दूरदृष्टि के अनुसार देश के व्यवसायिक एवं उच्चतर शैक्षिक संस्थानों को ग्राम पंचायत की विकास प्रक्रिया से जोड़ा जाना चाहिए। 'उन्नत भारत अभियान' के संरचनात्मक नेटवर्क की स्थापना और इस अभियान के दलों की बेहतर सहभागिता के लिए अभिविन्यास, ताकि सभी संस्थान अपना संचालन प्रभावी रूप से कर सके। सांकेतिक निधि के लिए आधारभूत आर्थिक कोष मानव संसाधन विकास मंत्रालय द्वारा प्रदान किया जाना है। इसके अतिरिक्त, स्त्रोत सामग्री, प्रशिक्षण कार्यशाला आदि तैयार करने के लिए विषय विशेषज्ञ समूह के कार्यों के लिए आवश्यक निधि भी मानव संसाधन विकास मंत्रालय द्वारा प्रदान की जानी है। </p>
+
+<p><h5>ख. राष्ट्रीय संचालन समिति (एनएससी)</h5></p>
+<p>यह एक शीर्ष नीति निर्माता संस्था है। इसमें मंत्रालयों/विभागों - मानव संसाधन विकास, पंचायती राज, भू-संसाधनों, पेयजल एवं स्वच्छता और कुछ अन्य से प्रतिनिधि लिए जाने का प्रावधान है। सभी हितधारकों संस्थानों और राज्य सरकारों के साथ काम कर, इन प्रयासों का नेतृत्व करना समिति का उत्तरदायित्व है। </p>
+
+<p><h5>ग. राष्ट्रीय समन्वयक संस्थान (एनएसआई)</h5></p>
+<p>भारतीय प्रद्योगिकी संस्थान, दिल्ली इस योजना का 'राष्ट्रीय समन्वयक संस्थान' है और अभियान के सफल कार्यान्वयन के लिए उत्तरदायी है। इसके समग्र उत्तरदायित्व में संस्थानों के चयन और उनके प्रशिक्षण, विषय विशेषज्ञ समूहों के गठन और वेब पोर्टल के माध्यम से कार्यक्रम की प्रगति की देख-रेख का कार्य सम्मिलित है। </p>
+
+<p><h5>घ. विषय विशेषज्ञ संस्थान (एसईजी)</h5></p>
+<p>'विषय विशेषज्ञ समूह' में सम्मिलित संस्थानों को 'राष्ट्रीय समन्वयक संस्थान' ने ग्रामीण कार्यों में कार्यरत संस्थानों द्वारा मांगी गई परिचालनात्मक विशेषज्ञता प्रदान करने के लिए नियुक्त किया है। ये संस्थानों द्वारा प्रस्तावित तकनीकी समाधानों को मूल्यांकित कर उन्हे अनुमोदित करते है और अनुकूल प्रक्रिया का अनुवीक्षण करते है। </p>
+
+<p><h5>ड. क्षेत्रीय समन्वयक संस्थान</h5> </p>
+<p>ये संस्थान अपने क्षेत्र में 'उन्नत भारत अभियान' के नेटवर्क को बढ़ावा देने के लिए नोडल केंद्रों के रूप में कार्य करते है और अपने समूह की गतिविधियों को अंजाम के अतिरिक्त अपने आस पड़ोस के क्षेत्र में स्थित सहभागी संस्थानों को दक्षता प्रदान करने के लिए प्रशिक्षण देने के लिए भी उत्तरदयी होते है। </p>
+
+<p><h5>च. सहभागी संस्थान</h5> </p>
+<p>चयनित गावों की आवशकताओं को समझना, चयनित गावों के जीवन को समृद्ध बनाने के लिए सभी हितधारकों के निकट समंवय से तदनुसार कार्य योजना तैयार करना एवं स्थानीय प्रशासन एवं अन्य हितधारकों के समंवय से कार्ययोजना को कार्यान्वित करना सहभागी संस्था का कार्य है। </p>
+
+<p><center><h3>ग्रामीण विकास योजना</h3></center></p>
+<p>ग्रामीण विकास योजना प्रत्येक गाँव के लिए तैयार की गई एक योजना है जिससे कार्य के प्रति सामाजिक प्रोत्साहन का वातावरण बने। निम्नलिखित कुछ कदम सहायक सिद्ध होते है -<br/>
+•	गांव के क्रिया-कलापों जैसे ग्राम सभा, महिला सभा, बाल सभा, और युवा क्लबों आदि में भागीदारी।<br/>
+•	गांवों के स्कूल में जाकर शिक्षको और छात्रों से संवाद करना। <br/>
+•	महत्वपूर्ण अवसरों पर बैनर लगाना, पर्चे एवं प्रचार पुस्तिका बांटना एवं रैलियां आयोजित करना।<br/>
+•	स्वच्छता अभियान आयोजित करना।<br/>
+•	व्रक्षारोपण।<br/>
+•	लोगो की शिकायतों, क्षेत्र की एक बड़ी समस्या को सूचीबद्ध करना और उनके समाधान के बारे में बातचीत करना।<br/></p>
+
+<p>दिल्ली विश्वविद्यालय के देशबंधु महाविद्यालय में उन्नत भारत की शुरुआत २०२१ में की गई थी। उन्नत भारत अभियान की देशबंधु इकाई छतरपुर तहसील में स्थित पांच गांवों में कार्यरत है। इन गांवों के नाम निम्नलिखित है: <br/>
+१. सतबरी<br/>
+२. चंदनहोला<br/>
+३. सुल्तानपुर<br/>
+४. राजपुर खुर्द<br/>
+५. भाटी माइंस</p>
+<p>देशबंधु महाविद्यालय विभिन्न हितधारकों में से एक सहभागी संस्थान के रूप में कार्यरत है। सहभागी संस्थानों के उद्देश्य को कार्य में सुनिश्चित करना ही देशबंधु की उन्नत भारत अभियान इकाई का कर्तव्य है। देशबंधु की इस इकाई ने अपना कार्य विभिन्न क्षेत्र में कर अपने आप को महाविद्यालय एवं गांवों के लोगो के दिल में जगह बनाने में कामयाबी हासिल की है। देशबंधु की इस इकाई के द्वारा किए गए कुछ कार्य निम्नलिखित है -<br/>
+•	व्रक्षारोपण<br/>
+•	स्वच्छता अभियान<br/>
+•	स्वास्थ्य शिविर<br/>
+•	जागरूकता अभियान<br/>
+•	वस्त्र वितरण<br/></p>
+<p>इस अभियान को अन्य लोगो तक पहुंचने हेतु विभिन्न माध्यम से प्रयास किए जा रहे है। विभिन्न समूह इसे ज्यादा से ज्यादा लोगो के बीच चर्चा का विषय बनाने के लिए कार्यरत है। आज के तकनीकी युग में देशबंधु की उन्नत भारत अभियान इकाई के इंस्टाग्राम, ट्विटर, यूट्यूब और फेसबुक जैसे सोशल मीडिया माध्यमों का उपयोग कारगर साबित हुआ है। 
+महाविद्यालय में दूसरे छात्रों को इस अभियान की ओर जागरूक करने हेतु विभिन्न कार्यक्रम आयोजित किए गए है। अभिविन्यास, आम जिंदगी से जुड़ी समस्याओं हेतु लेक्चर एवं चर्चा ऐसे ही कुछ आयोजित कार्यक्रम रहे।
+
+      </p>
+    </div>
+
+    <div className="conc-uba">
+      <p><center><h3>उपसंहार </h3></center></p>
+      <p>
+      उन्नत भारत अभियान के साथ किसी भी नाते से जो कोई भी जुड़ा उसे ये एहसास तो अवश्य हुआ की एक बहुत बड़ी जनसंख्या के पास बुनियादी सुविधाएं भी उपलब्ध नही है। कितने ही असंख्य लोग उन सुविधाओं से वंचित है जिनके लिए हम सुविधाओं जैसा शब्द भी प्रयोग नहीं करते। शहर की सुविधाओं के बारे में तो वे अभी तक अनजान है। उनके लिए तो सड़क, साफ पानी, दो वक्त की रोटी, पहनने करने के लिए दो जोड़ी कपड़े और सिर पर छत ही इस आधुनिक युग में विलास है। यह एक विडंबना ही है की जिन्हे एक वर्ग सुविधाएं तक नहीं समझता वह किसी दूसरे वर्ग के लिए विलास का कारण बन सकती है। 
+      </p>
+      <p>
+      उन्नत भारत अभियान से जुड़े हर एक शिक्षक एवं विद्यार्थी के लिए आज यह अभियान उनके दैनिक जीवन में समावेशित है। उनके दिल और दिमाग में हर एक वक्त उन गरीबों का जिक्र रहता है जिनके लिए हर एक सदस्य अपना योगदान दे रहा है। इस अभियान को संचालित करते समय जिन भी समस्याओं ने दस्तक दी उनका चुनौतीपूर्ण रूप से पूरे समूह ने मिलकर सामना किया। 
+      </p>
+      <p>
+      हम उन गांवों में जो कुछ भी कर पाए उसके लिए हमारे अंदर आनंद का भाव है, परंतु हमेशा ये एहसास की अभी बहुत से कार्य शेष है हमारी संतुष्टि के मध्य प्रतिरोध का कारण बनता है। गांव के लोगो की मुस्कुराहट ही हमारा एक मात्र पुरस्कार है जिसे पाकर हमारे अंदर लगातार स्वार्थरहित भावना से कार्य करने हेतु, आकांक्षा हिलोरे मारती है। हमारा लक्ष्य न केवल गांव के लोगो के प्रति अपना कर्तव्य है बल्कि इसके अतिरिक्त शहरों में ये जागरूकता फैलाना भी है की हर एक नागरिक का यह उत्तरदायित्व है की उन्हे भी उन लोगो के प्रति अपने कर्तव्य का पालन करना चाहिए जिनके सहारे के बिना एक वक्त की रोटी भी उन्हें नसीब न हो। 
+      </p>
+      <p>
+      हमारा इसमें पूर्ण विश्वास है की सभी के योगदान से ही इस विशेष वर्ग का उत्थान हो सकता है, परिणामस्वरूप तब इस देश में समानता का भाव उत्पन्न होगा, जिससे देश की आत्मा के विकास को भी बल मिलेगा। जब तक इस देश की आत्मा का पेट नही भरेगा, हम संतुष्टि से बैठ नहीं सकते है। हमारे मन-मस्तिष्क में लगातार इस भाव की धारा बहती रहनी चाहिए जिसे हम अन्य धाराओं के सहयोग से असंख्य लोगो का भला कर अपना कर्तव्य पूर्ण कर सके। 
+      </p>
+    </div>
+
       </div>
       </Base>
     );

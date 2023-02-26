@@ -28,7 +28,7 @@ const SignUP = () => {
   const collectData = async ()=> {
    
     let result = await fetch(
-        "https://uba-api.onrender.com/register",{
+        "http://localhost:5000/register",{
         method:'post',
         body: JSON.stringify({name, email, password}),
         headers:{
