@@ -10,17 +10,9 @@ export default function Home() {
       <Base>
       <div className="home">
        {/* <img src = {Header} alt='header' mx /> */}
-        <div className="youtube-video">
-        <iframe width="" height="255" src="https://www.youtube-nocookie.com/embed/IktFjGVw3p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>< br />
-        </div>
-
-        <div className="vill-links">
-
-        </div>
-{/*
       <Container className="village1">
-        <Row className="mx-0 px-0">
-        <Col className="mx-0 px-1" sm={{ size: 3, offset: 3}}>
+        <Row className="vill_col">
+        <Col className="">
           <Card >
             <CardBody className="VillgBody ">
               <CardTitle className="VillgTitle"><h3>VILLAGES</h3></CardTitle>
@@ -40,7 +32,8 @@ export default function Home() {
           </Col>
         </Row>
         </Container>
-*/}
+
+
       <div className="Work-Uba">
         <p>
       <center><h3>भूमिका</h3></center>
@@ -48,9 +41,9 @@ export default function Home() {
   <p>देशबंधु महाविद्यालय ने उन्नत भारत अभियान में अपनी भागीदारी दिखाते हुए इस कार्यक्रम   में अधिकतम प्रयास करते हुए योगदान देने का प्रयत्न किया है। देशबंधु महाविद्यालय की उन्नत भारत अभियान इकाई ने पांच गावों को गोद लिया, जहां पहुंचकर अनेक आयोजन किए गए है। इन आयोजनों में ग्रामीण लोगो की भागीदारी सराहनीय रही। चंदनहोला, राजपुर खुर्द, भाटी माइंस, सुल्तानपुर और सतबरी वो विभिन्न गाँव है जहाँ यूबीए ने अपना कार्य किया। लोगो से वार्तालाप करते हुए विभिन्न प्रपत्र भरे गए जिन्हे जानकारी जुटाने हेतु  उपयोग में लिया जाएगा। गांवों में सामाजिक कुरीतियों से लड़ने के लिए जागरूकता अभियान से लेकर साफ-सफाई तक, मुफ्त इलाज से लेकर गर्म कपड़े के वितरण करने तक यूबीए ने अनेक कार्यों को सम्पन्न किया है। 
    </p>
       </div>
-      <div className="youtube-video">
-      <iframe width="" height="275" src="https://www.youtube-nocookie.com/embed/LfmoIE9ws-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
+        <div className="youtube-video">
+        <iframe width="255" height="255" src="https://www.youtube-nocookie.com/embed/IktFjGVw3p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>< br />
+        </div>
 
     <div className="His-uba">
       <p>
@@ -60,6 +53,9 @@ Unnat Bharat Abhiyan was introduced at Deshbandhu College in June 2021. The init
 
       </p>
     </div>
+      <div className="youtube-video">
+      <iframe width="" height="275" src="https://www.youtube-nocookie.com/embed/LfmoIE9ws-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
 
     <div className="uba-intro">
       <p>

@@ -19,10 +19,22 @@
 .ft{
     font-size: 3vh;
 }
+.ld > img{
+    width: 2vmax;
+    cursor: pointer;
+}
+.ld:hover img{
+    transform: translateX(3px);
+}
+.ld{
+    font-size: 3vh;
+}
+
 
 .twiter > img{
     width: 2vmax;
     cursor: pointer;
+    
 }
 .twiter:hover img{
     transform: translateX(3px);
@@ -30,6 +42,7 @@
 .tt{
     font-size: 3vh;
 }
+
 
 .i{
     background-color: #f7f0f1;

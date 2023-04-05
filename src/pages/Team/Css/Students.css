@@ -1,0 +1,47 @@
+
+.contentimg > img{
+    border-radius: 50%;
+    height: 10cm;
+    margin-left: 2cm;
+    margin-top: 2cm;
+}
+.contentimg > h3{
+    margin-left: 3cm;
+    text-decoration: black;
+}
+.posterimg > img{
+    border-radius: 50%;
+    height: 10cm;
+    margin-left: 2cm;
+    margin-top: 2cm;
+}
+.posterimg > h3{
+    margin-left: 3cm;
+    text-decoration: black;
+}
+.dataimg > img{
+    border-radius: 50%;
+    height: 10cm;
+    margin-left: 2cm;
+    margin-top: 2cm;
+}
+.dataheadimg >img{
+    height: 15cm;
+}
+.dataimg > h3{
+    margin-left: 3cm;
+    text-decoration: black;
+}
+.researchimg > img{
+    border-radius: 50%;
+    height: 10cm;
+    margin-left: 2cm;
+    margin-top: 2cm;
+}
+.researchHeadimg > img{
+    height: 15cm;
+}
+.researchimg > h3{
+    margin-left: 3cm;
+    text-decoration: black;
+}

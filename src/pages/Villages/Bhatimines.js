@@ -1,6 +1,8 @@
 import React from 'react'
 import Base from '../../components/Base'
 import "./Css/Bhati.css"
+import { Container, Card, CardBody, CardTitle, Row, CardLink, Col } from "reactstrap";
+import { Link } from "react-router-dom";
 
 function Bhatimines() {
   return (
@@ -9,6 +11,28 @@ function Bhatimines() {
       <center><h2>Bhati mines</h2></center>
     </div>
     <div className='cont'>
+    <Container className="village1">
+        <Row className="vill_col">
+        <Col className="">
+          <Card >
+            <CardBody className="VillgBody ">
+              <CardTitle className="VillgTitle"><h3>VILLAGES</h3></CardTitle>
+              <hr className='' ></hr>
+              <CardLink className="Bhati" tag={Link} to="/Bhati" >Bhati Mines</CardLink>
+              <br />
+              <CardLink className="Chandan" tag={Link} to="/chandan" >Chandan Hola</CardLink>
+              <br />
+              <CardLink className="Rajpur" tag={Link} to="/rajpur" >Rajpur Khurd</CardLink>
+              <br />
+              <CardLink className="Satbari" tag={Link} to="/satbari" >Satbari</CardLink>
+              <br />
+              <CardLink className="Sultanpur" tag={Link} to="/sultanpur" >Sultan Pur</CardLink>
+
+            </CardBody>
+          </Card>
+          </Col>
+        </Row>
+        </Container>
     <p>Village Name: Bhati Mines (भाटी माइंस)</p>
     <p>Latitude: 28.4300°</p>
     <p>Longitude: 77.2260°</p>

@@ -23,6 +23,12 @@ import Students from './pages/Team/Students';
 import Year21 from './pages/Events/Year21';
 import Year22 from './pages/Events/Year22';
 import Year23 from './pages/Events/Year23';
+import Core from './pages/Team/students/Core';
+import Dataentry from './pages/Team/students/dataentry';
+import Media from './pages/Team/students/media';
+import Outreach from './pages/Team/students/outreach';
+import Research from './pages/Team/students/research';
+
 
 
 
@@ -57,6 +63,14 @@ function App() {
         <Route path='/yr21' element={<Year21 />} />
         <Route path='/yr22' element={<Year22 />} />
         <Route path='/yr23' element={<Year23 />} />
+
+
+        <Route path='/core' element={<Core/>}/>
+        <Route path='/outreach' element={<Outreach/>}  />
+        <Route path='/media' element={<Media />} />
+        <Route path='/data' element={<Dataentry />} />
+        <Route path='/research' element={<Research/>} />
+
         </Routes>
         </Router>
       </div>

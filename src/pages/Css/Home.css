@@ -21,14 +21,14 @@
     margin-top: 2cm;
     float: right;
 }
-.vill-links{
-    float: left;
-}
 
 .village1{
-    float: left;
+    float: right;
     box-sizing: border-box;
+    width: 65mm;
+    margin-top: 1cm;
 }
+
 .VillgBody {
     background-color: rgb(229, 186, 75);
 }
@@ -86,6 +86,7 @@
     margin-left: 1cm;
     box-sizing: border-box; 
     width: fit-content;
+    margin-right: 8cm;
 }.Work-Uba>p>center>h3{
     text-decoration: underline;
 }
@@ -94,6 +95,7 @@
     margin-left: 1cm;
     box-sizing: border-box;
     width: fit-content;
+    margin-right: 8cm;
 }.His-uba>p>center>h3{
     text-decoration: underline;
 }
@@ -102,6 +104,7 @@
     margin-left: 1cm;
     box-sizing: border-box;
     width: fit-content;
+    margin-right: 8cm;
 }.uba-intro>p>center>h3{
     text-decoration: underline;
 }.uba-intro>center>h3{
@@ -111,6 +114,7 @@
     margin-left: 1cm;
     box-sizing: border-box;
     width: fit-content;
+    margin-right: 8cm;
 }.conc-uba>p>center>h3{
     text-decoration: underline;
 }
